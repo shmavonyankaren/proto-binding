@@ -53,16 +53,16 @@ const Pagination = {
 
 const alphabetArray = "abcdefghijklmnopqrstuvwxyz".split("");
 Pagination.init(alphabetArray, 4);
-alert(Pagination.getPageItems()); // ["a", "b", "c", "d"]
+console.log(Pagination.getPageItems()); // ["a", "b", "c", "d"]
 Pagination.nextPage(); // add the current page by one
-alert(Pagination.getPageItems()); // ["e", "f", "g", "h"]
+console.log(Pagination.getPageItems()); // ["e", "f", "g", "h"]
 Pagination.nextPage().nextPage(); // the ability to call chainable
-alert(Pagination.getPageItems()); // ["m", "n", "o", "p"]
+console.log(Pagination.getPageItems()); // ["m", "n", "o", "p"]
 Pagination.goToPage(3); // current page must be set to 3
-alert(Pagination.getPageItems()); // ["i", "j", "k", "l"] 
+console.log(Pagination.getPageItems()); // ["i", "j", "k", "l"] 
 Pagination.prevPage().prevPage();
-alert(Pagination.getPageItems()); // ["a", "b", "c", "d"]
+console.log(Pagination.getPageItems()); // ["a", "b", "c", "d"]
 Pagination.lastPage();
-alert(Pagination.getPageItems()); // ["y", "z"]
+console.log(Pagination.getPageItems()); // ["y", "z"]
 Pagination.firstPage();
-alert(Pagination.getPageItems()); // ["a", "b", "c", "d"]
+console.log(Pagination.getPageItems()); // ["a", "b", "c", "d"]

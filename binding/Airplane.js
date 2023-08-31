@@ -14,8 +14,8 @@ const AirPlane = {
 };
 
 AirPlane.init("Karen");
-alert(AirPlane.isFlying);
+console.log(AirPlane.isFlying);
 AirPlane.takeOff();
-alert(AirPlane.isFlying);
+console.log(AirPlane.isFlying);
 AirPlane.land();
-alert(AirPlane.isFlying);
+console.log(AirPlane.isFlying);

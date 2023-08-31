@@ -15,4 +15,4 @@ const obj = {
     age: 20,
 }
 
-alert(myCall(foo, obj, "Hello, ", " I am "));
+console.log(myCall(foo, obj, "Hello, ", " I am "));

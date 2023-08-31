@@ -15,4 +15,4 @@ const obj = {
     age: 20,
 }
 
-alert(myApply(foo, obj, ["Hello, ", " I am "]));
+console.log(myApply(foo, obj, ["Hello, ", " I am "]));

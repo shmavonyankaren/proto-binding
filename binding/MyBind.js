@@ -15,9 +15,9 @@ const obj1 = {
     age: 20,
 }
 
-const func1 = myBind(foo1, obj1);
+const func1 = myBind1(foo1, obj1);
 
-alert(func1("Hello, ", " I am "));
+console.log(func1("Hello, ", " I am "));
 
 //        2     without  call (with my own)
 
@@ -46,4 +46,4 @@ const obj2 = {
 
 const func2 = myBind2(foo2, obj2);
 
-alert(func2("Hello, ", " I am "));
+console.log(func2("Hello, ", " I am "));
